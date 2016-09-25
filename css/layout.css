@@ -369,6 +369,17 @@ ul#nav li.current a { color: #F06000; }
    background: url(../images/globe.jpg) repeat;
    padding-top: 90px;
    padding-bottom: 60px;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   
+   /*
+   position: relative;
+   background: #161415 url(../images/img1.jpg) no-repeat top center;
+   text-align: center;
+   overflow: hidden; */
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
