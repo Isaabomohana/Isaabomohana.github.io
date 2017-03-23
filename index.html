@@ -12,8 +12,11 @@
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
-	<script src="js/modernizr.js"></script>
+	
 	<link rel="shortcut icon" href="favicon.png" >
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
 </head>
 
@@ -42,7 +45,7 @@
             <a class="smoothscroll" href="#about">start scrolling</a><br></h2>
             <hr />
             <ul class="social">
-               <li><a href="https://de.linkedin.com/in/isa-abo-mohana-a19606121"><i class="fa fa-linkedin"></i></a></li>
+               <li><a target="_blank" href="https://de.linkedin.com/in/isa-abo-mohana-a19606121"><i class="fa fa-linkedin"></i></a></li>
             </ul>
          </div>
       </div>
@@ -65,8 +68,7 @@
 
          <div class="nine columns main-col">
 
-            <a href="isa_CV.pdf" target="_blank"><h2>Click to open my Resume<h2></a>
-            <a href="Coverletter.pdf" target="_blank"><h2>Click to open my Cover Letter<h2></a>
+            <a class="cv-hover" href="isa_CV.pdf" target="_blank"><h2>Click to open my Resume<h2></a>
             <a href="ROR_certificate_Isa.pdf" target="_blank"><h2>Click to open RoR Certificate<h2></a>
             <br></br>
 
@@ -109,7 +111,7 @@
                <div class="twelve columns">
 
                   <h3>Education degree</h3>
-                  <p class="info">Diplom in Computer System Analysis <span>&bull;</span> <em class="date">2000</em></p>
+                  <p class="info">Diploma in Computer Systems Analysis <span>&bull;</span> <em class="date">2000</em></p>
 
                </div>
 
@@ -175,18 +177,20 @@
 				<div class="bars">
 
 				   <ul class="skills">
-					   <li><span class="bar-expand rails"></span><em>Ruby On Rails</em></li>
-                  <li><span class="bar-expand jes"></span><em>JS</em></li>
-                  <li><span class="bar-expand react"></span><em>Meteor</em></li>
-						<li><span class="bar-expand react"></span><em>React</em></li>
-						<li><span class="bar-expand materialdesign"></span><em>Material Design</em></li>
-                  <li><span class="bar-expand materialdesign"></span><em>CSS3</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand materialdesign"></span><em>jQuery</em></li>
-                  <li><span class="bar-expand materialdesign"></span><em>Bootstrap</em></li>
-                  <li><span class="bar-expand html5"></span><em>Git</em></li>
-                  <li><span class="bar-expand html5"></span><em>Node.js</em></li>
-					</ul>
+				    <li><span class="bar-expand rails"></span><em>Ruby On Rails</em></li>
+                    <li><span class="bar-expand jes"></span><em>JS</em></li>
+                    <li><span class="bar-expand react"></span><em>Meteor</em></li>
+					<li><span class="bar-expand react"></span><em>React</em></li>
+					<li><span class="bar-expand materialdesign"></span><em>Material Design</em></li>
+                    <li><span class="bar-expand materialdesign"></span><em>CSS3</em></li>
+					<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                    <li><span class="bar-expand materialdesign"></span><em>jQuery</em></li>
+                    <li><span class="bar-expand materialdesign"></span><em>Bootstrap</em></li>
+                    <li><span class="bar-expand html5"></span><em>Git</em></li>
+                    <li><span class="bar-expand html5"></span><em>Node.js</em></li>
+                    <li><span class="bar-expand react"></span><em>Express.js</em></li>
+                    <li><span class="bar-expand react"></span><em>MongoDB</em></li>
+				  </ul>
 
 				</div>
 
@@ -209,11 +213,18 @@
          </div> 
          <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
                <a href="http://rueckenwind.herokuapp.com/" target="_blank"><h2>Rückenwind App<h2></a>
+               <h3 class="b-h3">An App that helps Refugees to have a Bicke for free</h3>
+         </div>
+         <br>
+         <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+               <a href="https://github.com/mbd-s/acc-latte " target="_blank"><h2>Acc-Latte :<h2></a>
+               <h3 class="b-h3"> An open source Educational webApp that will help 
+               		people learn Accounting depending on them personale Experience </h3>
          </div>
 
          <div id="modal-01" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/Assis1.jpg" alt="" />
+		      <!-- <img class="scale-with-grid" src="" alt="" /> -->
 
 		      <div class="description-box">
 			      <h4>The Assistant</h4>
@@ -227,7 +238,7 @@
 	      </div>
          <div id="modal-02" class="popup-modal mfp-hide">
 
-            <img class="scale-with-grid" src="images/rec1.jpg" alt="" />
+            <!-- <img class="scale-with-grid" src="" alt="" /> -->
 
             <div class="description-box">
                <h4>REC Rechallenge</h4>
@@ -315,11 +326,6 @@ We are pleased to write this recommendation letter on behalf of Isa Abo-Mohana w
       </div>
 
    </footer> 
-
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
