@@ -6,8 +6,7 @@ $(document).ready(function() {
   $('.parallax').parallax();
   $('body').removeClass('fade-out');
   $('.scrollspy').scrollSpy();
-  $('.button-collapse').sideNav('show');
-  $('.button-collapse').sideNav('hide');
+  $('.collapsible').collapsible();
 
   jQuery(document).ready(function() {
       jQuery('.post2').addClass("hidden").viewportChecker({
