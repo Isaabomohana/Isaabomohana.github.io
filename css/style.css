@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+body.fade-out {
+  opacity: 0;
+  transition: none;
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+}
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  padding-top: 150px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #616161;
+}
+
+nav {
+  background-color: white;
+}
+
+i.material-icons {
+  color: #616161;
+}
+
+.parallax-h {
+  color: white;
+  padding-top: 80px;
+}
+
+.parallax-h-sp {
+  color: #00bcd4;
+}
+
+.parallax-p {
+  color: white;
+}
+
+section.row {
+  padding-top: 150px;
+}
+
+div.container {
+  padding-top: 50px;
+}
+
+div.card-image img {
+  margin-top: 50px;
+}
+
+.delay-1 {
+animation-delay: .25s;
+}
+
+.delay-2 {
+animation-delay: .5s;
+}
+
+.delay-3 {
+animation-delay: .75s;
+}
+
+.delay-4 {
+animation-delay: 1s;
+}
+
+div.progress {
+  height: 22px;
+}
+.card-image i {
+  margin-top: 20px;
+}
+
+.fa-2x {
+  padding-right: 35px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+/*.f-c {
+  padding-bottom: 50px;
+}*/
