@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+
 body.fade-out {
   opacity: 0;
   transition: none;
@@ -88,3 +89,5 @@ div.progress {
   cursor: pointer;
 
 }
+
+/* Snow effect */
